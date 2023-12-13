@@ -1,6 +1,10 @@
 function firstChar(text) {
   // your code here
-	return text.charAt(0);
+	if(text==" "||text==""){
+		return "";
+	}
+	return text.charAt(1);
+
 }
 
 // Do not change the code below
